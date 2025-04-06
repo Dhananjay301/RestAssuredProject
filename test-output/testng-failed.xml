@@ -6,6 +6,7 @@
       <class name="day1.HttpsMethos">
         <methods>
           <include name="createUser"/>
+          <include name="updateUser"/>
         </methods>
       </class> <!-- day1.HttpsMethos -->
     </classes>
