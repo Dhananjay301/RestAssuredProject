@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day2.createReqBodies">
+      <class name="reqBody_2.createReqJsonFile">
         <methods>
           <include name="deleteUser"/>
         </methods>
-      </class> <!-- day2.createReqBodies -->
+      </class> <!-- reqBody_2.createReqJsonFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

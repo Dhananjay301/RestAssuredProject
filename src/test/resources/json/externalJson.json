@@ -1,0 +1,9 @@
+{
+      "name": "Item Four",
+      "category": "GAMING",
+      "price": 90.00,
+      "tags": [
+        "Traveller",
+        "Swimming"
+      ]
+}

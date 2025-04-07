@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-07T10:46:38 IST" name="Default suite" finished-at="2025-04-07T10:46:41 IST" duration-ms="3620">
+  <suite started-at="2025-04-07T16:46:38 IST" name="Default suite" finished-at="2025-04-07T16:46:42 IST" duration-ms="3798">
     <groups>
     </groups>
-    <test started-at="2025-04-07T10:46:38 IST" name="Default test" finished-at="2025-04-07T10:46:41 IST" duration-ms="3620">
-      <class name="day2.createReqBodies">
-        <test-method signature="getReq()[pri:1, instance:day2.createReqBodies@34a3d150]" started-at="2025-04-07T10:46:38 IST" name="getReq" finished-at="2025-04-07T10:46:40 IST" duration-ms="2227" status="PASS">
+    <test started-at="2025-04-07T16:46:38 IST" name="Default test" finished-at="2025-04-07T16:46:42 IST" duration-ms="3798">
+      <class name="reqBody_2.createReqJsonFile">
+        <test-method signature="getUser()[pri:1, instance:reqBody_2.createReqJsonFile@6f1de4c7]" started-at="2025-04-07T16:46:38 IST" name="getUser" finished-at="2025-04-07T16:46:40 IST" duration-ms="2443" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getReq -->
-        <test-method signature="createUser()[pri:2, instance:day2.createReqBodies@34a3d150]" started-at="2025-04-07T10:46:40 IST" name="createUser" finished-at="2025-04-07T10:46:41 IST" duration-ms="1255" status="PASS">
+        </test-method> <!-- getUser -->
+        <test-method signature="createUser()[pri:2, instance:reqBody_2.createReqJsonFile@6f1de4c7]" started-at="2025-04-07T16:46:40 IST" name="createUser" finished-at="2025-04-07T16:46:42 IST" duration-ms="1183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="deleteUser()[pri:3, instance:day2.createReqBodies@34a3d150]" started-at="2025-04-07T10:46:41 IST" name="deleteUser" finished-at="2025-04-07T10:46:41 IST" duration-ms="31" status="PASS">
+        <test-method signature="deleteUser()[pri:3, instance:reqBody_2.createReqJsonFile@6f1de4c7]" started-at="2025-04-07T16:46:42 IST" name="deleteUser" finished-at="2025-04-07T16:46:42 IST" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
-      </class> <!-- day2.createReqBodies -->
+      </class> <!-- reqBody_2.createReqJsonFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

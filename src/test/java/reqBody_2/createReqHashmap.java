@@ -66,8 +66,8 @@ public class createReqHashmap {
 		  .delete("http://localhost:3000/Shop/"+id)
 		
 		.then()
-		.statusCode(200)
-		.log().all();
+		  .statusCode(200)
+		.  log().all();
 		
 	}
 
