@@ -1,4 +1,4 @@
-package day1;
+package basicHttps_1;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test.*;

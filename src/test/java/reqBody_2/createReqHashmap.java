@@ -1,4 +1,4 @@
-package day2;
+package reqBody_2;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test.*;
