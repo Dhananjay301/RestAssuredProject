@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-06T14:59:37 IST" name="Default suite" finished-at="2025-04-06T14:59:44 IST" duration-ms="6177">
+  <suite started-at="2025-04-07T10:46:38 IST" name="Default suite" finished-at="2025-04-07T10:46:41 IST" duration-ms="3620">
     <groups>
     </groups>
-    <test started-at="2025-04-06T14:59:37 IST" name="Default test" finished-at="2025-04-06T14:59:44 IST" duration-ms="6177">
-      <class name="day1.HttpsMethos">
-        <test-method signature="getUser()[pri:1, instance:day1.HttpsMethos@5c6648b0]" started-at="2025-04-06T14:59:37 IST" name="getUser" finished-at="2025-04-06T14:59:41 IST" duration-ms="3918" status="PASS">
+    <test started-at="2025-04-07T10:46:38 IST" name="Default test" finished-at="2025-04-07T10:46:41 IST" duration-ms="3620">
+      <class name="day2.createReqBodies">
+        <test-method signature="getReq()[pri:1, instance:day2.createReqBodies@34a3d150]" started-at="2025-04-07T10:46:38 IST" name="getReq" finished-at="2025-04-07T10:46:40 IST" duration-ms="2227" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUser -->
-        <test-method signature="createUser()[pri:2, instance:day1.HttpsMethos@5c6648b0]" started-at="2025-04-06T14:59:41 IST" name="createUser" finished-at="2025-04-06T14:59:43 IST" duration-ms="1354" status="PASS">
+        </test-method> <!-- getReq -->
+        <test-method signature="createUser()[pri:2, instance:day2.createReqBodies@34a3d150]" started-at="2025-04-07T10:46:40 IST" name="createUser" finished-at="2025-04-07T10:46:41 IST" duration-ms="1255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="updateUser()[pri:3, instance:day1.HttpsMethos@5c6648b0]" started-at="2025-04-06T14:59:43 IST" name="updateUser" finished-at="2025-04-06T14:59:44 IST" depends-on-methods="day1.HttpsMethos.createUser" duration-ms="782" status="PASS">
+        <test-method signature="deleteUser()[pri:3, instance:day2.createReqBodies@34a3d150]" started-at="2025-04-07T10:46:41 IST" name="deleteUser" finished-at="2025-04-07T10:46:41 IST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateUser -->
-      </class> <!-- day1.HttpsMethos -->
+        </test-method> <!-- deleteUser -->
+      </class> <!-- day2.createReqBodies -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
