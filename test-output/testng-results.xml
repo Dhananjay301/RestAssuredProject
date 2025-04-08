@@ -1,149 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-08T09:57:27 PDT" name="Default suite" finished-at="2025-04-08T09:57:28 PDT" duration-ms="1046">
+  <suite started-at="2025-04-08T11:20:13 PDT" name="Default suite" finished-at="2025-04-08T11:20:16 PDT" duration-ms="3310">
     <groups>
     </groups>
-    <test started-at="2025-04-08T09:57:27 PDT" name="Default test" finished-at="2025-04-08T09:57:28 PDT" duration-ms="1046">
-      <class name="pathAndQueryParam_3.PathQueryParam">
-        <test-method signature="queryPath()[pri:0, instance:pathAndQueryParam_3.PathQueryParam@5c6648b0]" started-at="2025-04-08T09:57:27 PDT" name="queryPath" finished-at="2025-04-08T09:57:28 PDT" duration-ms="956" status="FAIL">
-          <exception class="java.net.MalformedURLException">
-            <message>
-              <![CDATA[Illegal character found in host: '{']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.net.MalformedURLException: Illegal character found in host: '{'
-at java.base/java.net.URL.<init>(URL.java:806)
-at java.base/java.net.URL.<init>(URL.java:654)
-at java.base/java.net.URL.<init>(URL.java:590)
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-at io.restassured.internal.RequestSpecificationImpl.getTargetURI(RequestSpecificationImpl.groovy:1588)
-at io.restassured.internal.RequestSpecificationImpl.this$2$getTargetURI(RequestSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
-at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.RequestSpecificationImpl.partiallyApplyPathParams(RequestSpecificationImpl.groovy:1732)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
-at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1089)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
-at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1702)
-at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
-at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
-at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)
-at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:172)
-at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
-at pathAndQueryParam_3.PathQueryParam.queryPath(PathQueryParam.java:22)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.lang.IllegalArgumentException: Illegal character found in host: '{'
-at java.base/java.net.URLStreamHandler.setURL(URLStreamHandler.java:523)
-at java.base/java.net.URLStreamHandler.parseURL(URLStreamHandler.java:326)
-at java.base/java.net.URL.<init>(URL.java:801)
-... 117 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.net.MalformedURLException -->
+    <test started-at="2025-04-08T11:20:13 PDT" name="Default test" finished-at="2025-04-08T11:20:16 PDT" duration-ms="3310">
+      <class name="resValidation_4.JsonRespoanseVal">
+        <test-method signature="jsonResVal()[pri:0, instance:resValidation_4.JsonRespoanseVal@5c6648b0]" started-at="2025-04-08T11:20:13 PDT" name="jsonResVal" finished-at="2025-04-08T11:20:16 PDT" duration-ms="3251" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- queryPath -->
-      </class> <!-- pathAndQueryParam_3.PathQueryParam -->
+        </test-method> <!-- jsonResVal -->
+      </class> <!-- resValidation_4.JsonRespoanseVal -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
