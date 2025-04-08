@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pathAndQueryParam_3.PathQueryParam">
+      <class name="resValidation_4.ParsingJsonResData">
         <methods>
-          <include name="queryPath"/>
+          <include name="jsonResParse"/>
         </methods>
-      </class> <!-- pathAndQueryParam_3.PathQueryParam -->
+      </class> <!-- resValidation_4.ParsingJsonResData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
