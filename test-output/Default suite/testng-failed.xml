@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="reqBody_2.createReqJsonFile">
+      <class name="pathAndQueryParam_3.PathQueryParam">
         <methods>
-          <include name="deleteUser"/>
+          <include name="queryPath"/>
         </methods>
-      </class> <!-- reqBody_2.createReqJsonFile -->
+      </class> <!-- pathAndQueryParam_3.PathQueryParam -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
