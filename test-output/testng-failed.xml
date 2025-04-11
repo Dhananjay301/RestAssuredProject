@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basicHttps_1.HttpsMethos">
+      <class name="authentication_7.BasichAuth">
         <methods>
-          <include name="getUser"/>
+          <include name="basicAuthTest"/>
         </methods>
-      </class> <!-- basicHttps_1.HttpsMethos -->
+      </class> <!-- authentication_7.BasichAuth -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

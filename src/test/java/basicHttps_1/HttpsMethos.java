@@ -2,9 +2,9 @@ package basicHttps_1;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test.*;
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.*;  //	Gives access to Rest Assured DSL (given, when, then)
 import static io.restassured.matcher.RestAssuredMatchers.*;
-import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.*;  // making assertions more readable. Matchers like equalTo(), hasItem(), containsString(), etc., are used in the then().body() or then().statusCode() sections.
 
 import java.util.HashMap;
 
