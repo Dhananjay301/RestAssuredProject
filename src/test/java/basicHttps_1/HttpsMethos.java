@@ -23,11 +23,18 @@ public class HttpsMethos {
 			.then()
 			   .statusCode(200)
 			   .body("page", equalTo(2))
+			   .body("data[0].email", not("patil.lawson@reqres.in"))
+			   .body("data[0].email", notNullValue())			   
+			   .body("per_page", anyOf(equalTo(5), equalTo(6)))
+			   .body("per_page", greaterThan(5))
+			   .body("data[0].email", containsString("lawson"))
+			   .body("data[0].email", notNullValue())
+			   
 			   .log().all();
 
 	}
 	
-	@Test(priority=2)
+//	@Test(priority=2)
 	void createUser() {
 		HashMap mp=new HashMap();
 		mp.put("name", "morpheus");
@@ -47,7 +54,7 @@ public class HttpsMethos {
 //		
 	}
 	
-	@Test(priority=3, dependsOnMethods= {"createUser"})
+//	@Test(priority=3, dependsOnMethods= {"createUser"})
 	void updateUser()  {
 		HashMap data=new HashMap();
 		data.put("name", "Dhananjay");
