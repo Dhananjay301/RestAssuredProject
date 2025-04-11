@@ -27,7 +27,7 @@ public class HttpsMethos {
 
 	}
 	
-//	@Test(priority=2)
+	@Test(priority=2)
 	void createUser() {
 		HashMap mp=new HashMap();
 		mp.put("name", "morpheus");
@@ -47,7 +47,7 @@ public class HttpsMethos {
 //		
 	}
 	
-//	@Test(priority=3, dependsOnMethods= {"createUser"})
+	@Test(priority=3, dependsOnMethods= {"createUser"})
 	void updateUser()  {
 		HashMap data=new HashMap();
 		data.put("name", "Dhananjay");

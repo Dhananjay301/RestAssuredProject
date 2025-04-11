@@ -19,16 +19,16 @@ public class createReqHashmap {
 	@Test(priority = 1)
 	void getReq() {
 
-		given()
-			.contentType("application/json")
+		     given()
+			  .contentType("application/json")
 
-			.when()
-			.get("http://localhost:3000/Shop?id=2")
+			 .when()
+			   .get("http://localhost:3000/Shop?id=2")
 
-			.then()
-			.statusCode(200)
-			.log()
-			.all();
+			 .then()
+			   .statusCode(200)
+			   .log()
+			   .all();
 	}
 
 	@Test(priority = 2)
@@ -44,12 +44,12 @@ public class createReqHashmap {
 		data.put("tags", tagsArr);
 
 		id = given()
-			.contentType("application/json")
-			.body(data)
+			  .contentType("application/json")
+			  .body(data)
 
 			.when()
-			.post("http://localhost:3000/Shop")
-			.jsonPath().getString("id");
+			  .post("http://localhost:3000/Shop")
+			  .jsonPath().getString("id");
 
 //		.then()
 //		  .statusCode(201)
